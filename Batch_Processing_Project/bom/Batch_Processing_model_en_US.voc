@@ -1,0 +1,25 @@
+# Vocabulary Properties
+uuid = f4d2c37a-51cb-4398-8acf-50a357e3860b
+
+# org.odm.Client
+org.odm.Client#concept.label = client
+org.odm.Client.age#phrase.action = set the age of {this} to {age}
+org.odm.Client.age#phrase.navigation = {age} of {this}
+org.odm.Client.maried#phrase.action = make it {maried} that {this} is maried
+org.odm.Client.maried#phrase.navigation = {this} is maried
+org.odm.Client.name#phrase.action = set the name of {this} to {name}
+org.odm.Client.name#phrase.navigation = {name} of {this}
+org.odm.Client.number_of_cars#phrase.action = set the number of cars of {this} to {number of cars}
+org.odm.Client.number_of_cars#phrase.navigation = {number of cars} of {this}
+org.odm.Client.salary#phrase.action = set the salary of {this} to {salary}
+org.odm.Client.salary#phrase.navigation = {salary} of {this}
+
+# org.odm.Request
+org.odm.Request#concept.label = request
+org.odm.Request.listOfClients#phrase.action = set the list of clients of {this} to {list of client}
+org.odm.Request.listOfClients#phrase.navigation = {list of client} of {this}
+
+# org.odm.Response
+org.odm.Response#concept.label = response
+org.odm.Response.answer#phrase.action = change answer of {this} to {answer}
+org.odm.Response.answer#phrase.navigation = {this} is answer

@@ -1,0 +1,43 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Batch_Processing_Project//Batch_Processing_Project_XOM"
+property uuid "4af4ac6c-0ce2-45f1-ab2d-49c37d4a3fc3"
+package org.odm;
+
+
+public class Client
+{
+    public java.lang.Integer age;
+    public java.lang.Boolean maried;
+    public string name;
+    public java.lang.Integer number_of_cars;
+    public java.lang.Integer salary;
+    public Client(string arg1, java.lang.Integer arg2, java.lang.Integer arg3, java.lang.Boolean arg4);
+    public Client(string arg1, java.lang.Integer arg2, java.lang.Integer arg3, java.lang.Boolean arg4, java.lang.Integer arg5);
+    public Client();
+}
+
+public class Demo
+{
+    public Demo();
+    public static void main(java.lang.String[] arg);
+}
+
+public class Request
+{
+    public java.util.List listOfClients domain 0,* class org.odm.Client;
+    public Request(java.util.List arg domain 0,* class org.odm.Client);
+    public Request();
+    public boolean equals(object arg);
+    public int hashCode();
+}
+
+public class Response
+{
+    public java.lang.Boolean answer;
+    public Response(java.lang.Boolean arg);
+    public Response();
+    public boolean equals(object arg);
+    public int hashCode();
+}
+

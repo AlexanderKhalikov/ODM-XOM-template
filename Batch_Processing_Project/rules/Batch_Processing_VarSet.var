@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Batch_Processing_VarSet</name>
+  <uuid>af8ec312-97ec-45fa-8a58-fe0021dae2e0</uuid>
+  <variables name="Request" type="org.odm.Request" initialValue="new org.odm.Request()" verbalization="my Request"/>
+  <variables name="Response" type="org.odm.Response" initialValue="new org.odm.Response()" verbalization="my Response"/>
+  <variables name="Client" type="org.odm.Client" initialValue="new org.odm.Client()" verbalization="my Client"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="$ZenApiKey$" url="https://cpd-cp4ba.ce-cp4ba-cluster-1957c4c7f8f7afe75e4976f3d7405e31-0000.au-syd.containers.appdomain.cloud/odm/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="1148722923" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_model" sourceCS="85AC857486EB74D73F7020EAB33E8FAA" targetCS="1148722923" type="B2XMapping" uuid="f589d5f6-b508-4848-a2db-6649ae422d9c"/>
+<entry baseType="BRLRule" checksum="3291316539" projectName="Batch_Processing_Project" qualifiedName="Rules.change response answer" sourceCS="6213248F9CD4FB66F04E4B78972A6C15" targetCS="3291316539" type="BRLRule" uuid="3c516d17-fda8-4030-918d-94e96d1fc7d7"/>
+<entry baseType="BusinessObjectModel" checksum="1148722923" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_model" sourceCS="FD962A393DD1A3470761F22D92663297" targetCS="1148722923" type="BusinessObjectModel" uuid="4af4ac6c-0ce2-45f1-ab2d-49c37d4a3fc3"/>
+<entry baseType="DecisionOperation" checksum="4017783491" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_Decision_Operation" sourceCS="86890CB93993C4C97FD7D0EFAE3492CF" targetCS="4017783491" type="DecisionOperation" uuid="c7a2d044-7928-4c74-88b6-b46894e3472e"/>
+<entry baseType="DeploymentConfiguration" checksum="3594832253" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_Deployment_Configuration" sourceCS="C9F5D4018DA29F94FF98EAAF751135CD" targetCS="3594832253" type="DeploymentConfiguration" uuid="632a6abe-e403-445f-b763-4e2741a49dc0"/>
+<entry baseType="Resource" checksum="955195891" projectName="Batch_Processing_Project" qualifiedName="xom-libraries/Batch_Processing_Project_XOM.zip" sourceCS="1709D2A27DE1122D5746F040B3F3112E" targetCS="955195891" type="Resource" uuid="xom-libraries/Batch_Processing_Project_XOM.zip"/>
+<entry baseType="Ruleflow" checksum="3948145728" projectName="Batch_Processing_Project" qualifiedName="main" sourceCS="200D5AB1C7FE49DC3EC92DDBBE4AB782" targetCS="3948145728" type="Ruleflow" uuid="fd55b280-d7ad-421f-bbf9-64455d8dc6af"/>
+<entry baseType="RulePackageInfo" checksum="969181379" projectName="Batch_Processing_Project" qualifiedName="Rules" sourceCS="63B998AD4BAF44AA545D7385895D6155" targetCS="969181379" type="RulePackageInfo" uuid="61126161-a58b-434d-952e-e4f502345a45"/>
+<entry baseType="RuleProjectInfo" checksum="674982104" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_Project" sourceCS="0D1AACEF7270E31FC5D776D48613C753" targetCS="674982104" type="RuleProjectInfo" uuid="f6544055-0dd1-4175-8f10-4c72a5fb5365"/>
+<entry baseType="VariableSet" checksum="3878517345" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_VarSet" sourceCS="491DFC05BA46223D1E3F670CB2768EA6" targetCS="3878517345" type="VariableSet" uuid="af8ec312-97ec-45fa-8a58-fe0021dae2e0"/>
+<entry baseType="Vocabulary" checksum="3742102591" projectName="Batch_Processing_Project" qualifiedName="Batch_Processing_model_en_US" sourceCS="1CE8487721E814FF322257DD90248402" targetCS="3742102591" type="Vocabulary" uuid="f4d2c37a-51cb-4398-8acf-50a357e3860b"/>
+</teamserver>
+</teamservers>

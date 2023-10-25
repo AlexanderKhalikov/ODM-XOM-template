@@ -1,10 +1,10 @@
-package com;
+package org.odm;
 
-import java.io.StringWriter;
-import java.util.Arrays;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import java.io.StringWriter;
+import java.util.Arrays;
 
 public class Demo {
     public static void main(String[] args) {

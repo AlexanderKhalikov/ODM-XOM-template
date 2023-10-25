@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="Batch_Processing_Deployment_Configuration" ruleAppVersion="1.1" managingXom="true">
+  <eAnnotations source="ilog.rules.custom_properties">
+    <details key="Dep_Groups" value="rtsAdministrator,rtsConfigManager"/>
+    <details key="Dep_SnapshotCreationKind" value="ALWAYS"/>
+  </eAnnotations>
+  <name>Batch_Processing_Deployment_Configuration</name>
+  <uuid>632a6abe-e403-445f-b763-4e2741a49dc0</uuid>
+  <targets label="CE_ODM_Server"/>
+  <targets label="LOCAL_ODM_Server"/>
+  <operations operationName="Batch_Processing_Decision_Operation">
+    <operation href="Batch_Processing_Decision_Operation.dop#c7a2d044-7928-4c74-88b6-b46894e3472e"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.1]]></value>
+    </properties>
+    <properties key="com.ibm.rules.engine.bytecode.generation">
+      <value><![CDATA[true]]></value>
+    </properties>
+    <properties key="ruleset.trace.enabled">
+      <value><![CDATA[false]]></value>
+    </properties>
+    <properties key="ruleset.debug.enabled">
+      <value><![CDATA[false]]></value>
+    </properties>
+    <properties key="ruleset.status">
+      <value><![CDATA[enabled]]></value>
+    </properties>
+  </operations>
+  <versionPolicies label="Increment minor version numbers" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
+    <description><![CDATA[Updates the minor version for each ruleset. Makes the new version available but retains previous versions.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Use the base version numbers" recurrent="true">
+    <description><![CDATA[Uses the numbers provided in the deployment configuration. Replaces the latest version of each ruleset with this release. Used for hot fixes or development.]]></description>
+  </versionPolicies>
+  <versionPolicies label="The user can define the version numbers" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Allows you to enter your own version numbers. Used for hot fixes or updates to an earlier release.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

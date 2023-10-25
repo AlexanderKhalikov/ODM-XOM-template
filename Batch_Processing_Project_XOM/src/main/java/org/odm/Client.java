@@ -1,4 +1,4 @@
-package com;
+package org.odm;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlTransient;

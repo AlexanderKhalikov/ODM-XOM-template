@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="Batch_Processing_Decision_Operation" usingRuleflow="true" ruleflowName="main" targetRuleProjectName="Batch_Processing_Project">
+  <name>Batch_Processing_Decision_Operation</name>
+  <uuid>c7a2d044-7928-4c74-88b6-b46894e3472e</uuid>
+  <referencedVariables variableName="Request" variableSetName="Batch_Processing_VarSet">
+    <variableSet href="../rules/Batch_Processing_VarSet.var#af8ec312-97ec-45fa-8a58-fe0021dae2e0"/>
+  </referencedVariables>
+  <referencedVariables variableName="Response" variableSetName="Batch_Processing_VarSet" direction="OUT">
+    <variableSet href="../rules/Batch_Processing_VarSet.var#af8ec312-97ec-45fa-8a58-fe0021dae2e0"/>
+  </referencedVariables>
+  <ruleflow href="../rules/main.rfl#fd55b280-d7ad-421f-bbf9-64455d8dc6af"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="Batch_Processing_Decision_Operation_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../Batch_Processing_Project#f6544055-0dd1-4175-8f10-4c72a5fb5365"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
