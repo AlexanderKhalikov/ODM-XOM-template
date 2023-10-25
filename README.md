@@ -6,6 +6,7 @@ In order to run it you need to install Eclipse IDE with Rule Designer plugin.
 The instructions are presented on IBM documentation page:
 
 https://www.ibm.com/docs/en/odm/8.12.0?topic=8120-installing-rule-designer
+
 https://www.eclipse.org/downloads/packages/release/2022-06/r
 
 Install Java11 and specify it in your eclipse.ini file under -vm
