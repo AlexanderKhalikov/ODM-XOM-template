@@ -15,7 +15,9 @@ Go to your eclipse marketplace and install Rule Designer 12
 
 Create a new Java Project and insert Batch_Processing_Project_XOM into it.
 
-Perform mvn install command.
+Perform mvn install command:
+
+```mvn install```
 
 Create a new Rule Project and paste everything from Batch_Processing_Project folder into it.
 
