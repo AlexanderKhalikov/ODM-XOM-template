@@ -27,3 +27,14 @@ Perform mvn install command:
 Create a new Rule Project and paste everything from Batch_Processing_Project folder into it.
 
 Follow the Rule Project Map instructions in your Rule Designer. 
+
+To deploy Rule Execution Server and Decision Center from this docker image:
+
+https://hub.docker.com/r/ibmcom/odm
+
+Use this command:
+
+```
+docker compose up -d
+```
+
