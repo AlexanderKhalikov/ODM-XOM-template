@@ -9,8 +9,8 @@ import java.util.Arrays;
 public class Demo {
     public static void main(String[] args) {
         jaxbObjectToXML(new Request(Arrays.asList(
-                new Client("Sergey", 25, 25000, true),
-                new Client("Anna", 26, 30000, false),
+                new Client("John", 25, 25000, true),
+                new Client("Aleks", 26, 30000, false),
                 new Client()
         )));
         jaxbObjectToXML(new Response());
