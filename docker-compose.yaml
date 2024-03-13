@@ -1,7 +1,7 @@
 version: '3'
 services:
   odm:
-   platform: linux/amd64
+   platform: linux/arm64
    image: ibmcom/odm
    container_name: odmResOnDocker
    ports:
